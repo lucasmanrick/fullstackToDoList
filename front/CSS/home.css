@@ -1,0 +1,89 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #32b352; /* Cor de fundo da navbar */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-bottom: 1px solid #ddd; /* Linha abaixo da navbar */
+    height: 80px;
+}
+
+/* Container que envolve a navbar */
+.container {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Alinha os itens verticalmente */
+    height: 60px;
+    width: 70%; /* Define 80.5% da largura */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    /* padding: 20px; Espaçamento interno opcional */
+}
+
+/* Estilo do logo ou texto da marca */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Lista de navegação */
+.navbar-nav {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens em linha */
+ 
+}
+
+/* Estilo dos itens de navegação */
+.nav-item {
+    margin-left: 16px; /* Espaçamento entre os itens */
+}
+
+/* Estilo dos links */
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.3s; /* Transição suave de cor */
+}
+
+/* Efeito hover nos links */
+.nav-link:hover {
+    color: #007bff; /* Cor azul ao passar o mouse */
+}
+
+/* Estilo para o link ativo */
+.nav-link.active {
+    font-weight: bold;
+    color: #ffffff; /* Cor azul para o item ativo */
+}
+
+#conteudoPrincipal {
+    width: 70%; /* Define 80.5% da largura */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Espaçamento interno opcional */
+    /* Altura e outras propriedades podem ser ajustadas conforme necessário */
+}
+
+#mensagem {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid green;
+    background-color: #d4edda;
+    color: green;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;  /* Inicialmente escondido */
+    text-align: center;
+}
